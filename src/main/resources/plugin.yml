@@ -1,0 +1,11 @@
+name: BuildReview
+version: ${project.version}
+main: me.knightswhosayni.buildreview.BuildReview
+api-version: 1.13
+prefix: BuildReview
+load: STARTUP
+authors: [KnightsWhoSayNi]
+description: A plugin allowing players to request for admins to review their builds. Based on ReviewMe.
+commands:
+  review:
+    description: The main command for the Build Review plugin.
